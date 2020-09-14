@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: #363c40;
+    color: white;
+}
+.main{
+    display: flex;
+    margin: 10% auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.container{
+    height: auto;
+    width: 80%;
+}
+.dateInput{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    text-align: center;
+    padding-top: 60px;
+}
+h1{
+    font-size: 200%;
+    font-weight: normal;
+}
+h3{
+    font-size: 2rem;
+    font-family: 'Mitr', sans-serif;
+    font-weight: normal;
+}
+h2{
+    font: 500;
+    margin: 8% 0 2% 0;
+}
+input[type='date']{
+    width: 50%;
+    height: 40px;
+    font-size: 120%;
+    color: #666666;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 1% 2%;
+    font-family: 'Mitr', sans-serif;
+}
+input[type='submit']{
+    padding: 1% 4%;
+    font-size: medium;
+    border-radius: 4px;
+}
+input[type='submit']:hover{
+    background-color: #7851EA;
+    color: aliceblue;
+}
+input[type='submit']:active{
+    transform: scale(0.8);
+}
+.showCountdown{
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;
+    text-align: center;
+    padding-top: 10px;
+}
+.showTime{
+    display: inline;
+}
+#result{
+    flex: 0.5;
+}
+#seconds-unit{
+    flex: 0.5;
+    font-family: 'Mitr', sans-serif;
+}
